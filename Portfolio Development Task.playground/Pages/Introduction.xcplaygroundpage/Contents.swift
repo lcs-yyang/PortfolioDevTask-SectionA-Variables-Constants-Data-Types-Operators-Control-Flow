@@ -1,7 +1,7 @@
 /*:
  # Introduction
  
- The purpose of this playground is to provide you with an opportunity to demonstrate and document understanding of these concepts in your Computer Science portfolio:
+The purpose of this playground is to provide you with an opportunity to demonstrate and document understanding of these concepts in your Computer Science portfolio:
  
  * Constants, Variables, and Data Types
  * Operators
