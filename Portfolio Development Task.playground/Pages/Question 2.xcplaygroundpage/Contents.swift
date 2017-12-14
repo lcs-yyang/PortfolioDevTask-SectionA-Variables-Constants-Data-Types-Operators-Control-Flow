@@ -7,6 +7,8 @@
  
  You are not sure how the album will be received but are hopeful that many people will appreciate your vocals and skill with a ukelele.
  
+ ![ukulele_here](iu.png "Ukelele Hero")
+ 
  Create and initialize a variable or constant (whatever is more appropriate), using a reasonable data type, to represent each of these items:
  
  * name of the album
