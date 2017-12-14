@@ -6,83 +6,19 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		81FE26D11FE29C33005ABE3E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE26D01FE29C33005ABE3E /* main.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		81FE26CB1FE29C33005ABE3E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		81FE26CD1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81FE26D01FE29C33005ABE3E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		81FE26D71FE29C9C005ABE3E /* Introduction.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Introduction.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		81FE26CA1FE29C33005ABE3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		81FE26C41FE29C33005ABE3E = {
 			isa = PBXGroup;
 			children = (
-				81FE26CF1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */,
-				81FE26CE1FE29C33005ABE3E /* Products */,
+				81FE26D71FE29C9C005ABE3E /* Introduction.playground */,
 			);
-			sourceTree = "<group>";
-		};
-		81FE26CE1FE29C33005ABE3E /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				81FE26CD1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		81FE26CF1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */ = {
-			isa = PBXGroup;
-			children = (
-				81FE26D01FE29C33005ABE3E /* main.swift */,
-			);
-			path = "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		81FE26CC1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 81FE26D41FE29C33005ABE3E /* Build configuration list for PBXNativeTarget "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow" */;
-			buildPhases = (
-				81FE26C91FE29C33005ABE3E /* Sources */,
-				81FE26CA1FE29C33005ABE3E /* Frameworks */,
-				81FE26CB1FE29C33005ABE3E /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow";
-			productName = "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow";
-			productReference = 81FE26CD1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */;
-			productType = "com.apple.product-type.tool";
-		};
-/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		81FE26C51FE29C33005ABE3E /* Project object */ = {
@@ -91,12 +27,6 @@
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Russell Gordon";
-				TargetAttributes = {
-					81FE26CC1FE29C33005ABE3E = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 81FE26C81FE29C33005ABE3E /* Build configuration list for PBXProject "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow" */;
 			compatibilityVersion = "Xcode 8.0";
@@ -106,25 +36,13 @@
 				en,
 			);
 			mainGroup = 81FE26C41FE29C33005ABE3E;
-			productRefGroup = 81FE26CE1FE29C33005ABE3E /* Products */;
+			productRefGroup = 81FE26C41FE29C33005ABE3E;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81FE26CC1FE29C33005ABE3E /* PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		81FE26C91FE29C33005ABE3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				81FE26D11FE29C33005ABE3E /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
 		81FE26D21FE29C33005ABE3E /* Debug */ = {
@@ -233,24 +151,6 @@
 			};
 			name = Release;
 		};
-		81FE26D51FE29C33005ABE3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		81FE26D61FE29C33005ABE3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -259,15 +159,6 @@
 			buildConfigurations = (
 				81FE26D21FE29C33005ABE3E /* Debug */,
 				81FE26D31FE29C33005ABE3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		81FE26D41FE29C33005ABE3E /* Build configuration list for PBXNativeTarget "PortfolioDevTask-SectionA-Variables-Constants-Data-Types-Operators-Control-Flow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				81FE26D51FE29C33005ABE3E /* Debug */,
-				81FE26D61FE29C33005ABE3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
