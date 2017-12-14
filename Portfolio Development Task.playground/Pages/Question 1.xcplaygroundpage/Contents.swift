@@ -1,16 +1,18 @@
 /*:
  # Question 1
 
- Several variables are declared below and then used to calculate the distance a car has travelled.
+ A family travelled home for Christmas from Lakefield to Montreal.
+ 
+ Several variables are declared below and then used to calculate the distance their car travelled.
  
  Change the variable names so they are more descriptive of what they keep track of.
  
- Use the camel case convention.
+ Use the camel case convention for variable names.
  */
 // Answer question 1 below
-var howlongweweretravellingfor = 5.25
+var howlongwetravelledfor = 5.875
 var s = 80.0
-let dct = s * howlongweweretravellingfor
+let dct = s * howlongwetravelledfor
 
 /*:
 - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
