@@ -22,13 +22,13 @@
 var moneyIHaveEarned = 0
 
 // 1 bad joke challenge
-moneyIHaveEarned = moneyIHaveEarned + 5
+moneyIHaveEarned += 5
 
 // 2 rap song challange
-moneyIHaveEarned = moneyIHaveEarned - 2
+moneyIHaveEarned -= 2
 
 // 3 singing song challenge
-moneyIHaveEarned = moneyIHaveEarned * 4
+moneyIHaveEarned *= 4
 
 // 4 waving car challenge
 moneyIHaveEarned = Int(12 - (0.75 * 13))
